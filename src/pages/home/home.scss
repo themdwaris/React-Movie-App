@@ -1,0 +1,16 @@
+.crouselSection{
+    position: relative;
+    margin-bottom: 80px;
+    &>.contentWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        .crouselTitle{
+            color: rgb(200, 198, 198);
+            font-size: 23px;
+            font-weight: normal;
+        }
+    }
+}
+
