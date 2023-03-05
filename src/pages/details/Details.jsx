@@ -13,7 +13,7 @@ const Details = () => {
   const {loading,data} = useFetch(`/${mediaType}/${id}/videos`)
   const {loading:creditsLoading,data:credits} = useFetch(`/${mediaType}/${id}/credits`)
   return (
-    <div>
+    <div className='detailPad'>
       <DetailsBanner video={data?.results?.[0]} crew={credits?.crew}/>
       <Cast data={credits?.cast} loading={creditsLoading}/>
       <VideosSection data={data} loading={loading}/>
