@@ -1,4 +1,5 @@
 @import "../../../mixins.scss";
+
 .detailsBanner {
     width: 100%;
     background-color: var(--black);
@@ -45,7 +46,8 @@
         display: flex;
         position: relative;
         flex-direction: column;
-        padding: 0 20px;
+        // padding: 0 20px;
+        padding-right: 15px;
         gap: 25px;
         @include md {
             gap: 50px;
@@ -53,6 +55,8 @@
         }
         .left {
             flex-shrink: 0;
+            // padding: 0 15px;
+            padding-left: 15px;
             .posterImg {
                 width: 100%;
                 display: block;
@@ -64,6 +68,7 @@
         }
         .right {
             color: white;
+            padding-left:15px;
             .title {
                 font-size: 28px;
                 line-height: 40px;
