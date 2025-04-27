@@ -6,6 +6,7 @@ import Trending from "./trending/Trending";
 import TopRated from "./topRated/TopRated";
 
 const Home = () => {
+  alert("Please use VPN to view the content and try again :)")
   return (
     <div className="homePage">
       <HeroBanner />
